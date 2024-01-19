@@ -1,38 +1,32 @@
 import React from "react";
+import cake1 from '../assets/image/cake banner.webp'
+import cake2 from '../assets/image/cake1banner'
+import cake3 from '../assets/image/cake2banner.webp'
+
+
 
 function Banner() {
   return (
     <div>
       <section className="container">
-        <div className="card mt-3">
-          <div className="row justify-content-around align-items-center">
-            <div className="col-1">
-              <p>Same Day Delivery</p>
-            </div>
-            <div className="col-1">
-              <p>Personalized</p>
-            </div>
-            <div className="col-1">
-              <p>Cakes</p>
-            </div>
-            <div className="col-1">
-              <p>Flowers</p>
-            </div>
-            <div className="col-1">
-              <p>Plants</p>
-            </div>
-            <div className="col-1">
-              <p>New Arrivals</p>
-            </div>
-            <div className="col-1">
-              <p>Gourmet</p>
-            </div>
-            <div className="col-1">
-              <p>Bulk/Corp. Gifts</p>
-            </div>
+      
+      </section>
+     <section className="container mt-4">
+      <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src={cake1} className="d-block w-100" alt="Slide 1" />
+          </div>
+          <div className="carousel-item">
+            <img src={cake2} className="d-block w-100" alt="Slide 2" />
+          </div>
+          <div className="carousel-item">
+            <img src={cake3} className="d-block w-100" alt="Slide 3" />
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+   
     </div>
   );
 }
