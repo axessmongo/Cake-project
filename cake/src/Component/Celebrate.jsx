@@ -40,8 +40,7 @@ function Celebrate() {
             />
             <p className="fs-4 text-center">WIFE</p>
           </div>
-        </div>
-        <div className="row"  data-aos="fade-left" data-aos-duration="1200">
+        
           <div className="col-md-3 mt-3">
             <img
               src="  https://cdn.igp.com/f_auto,q_auto,t_pnopt7prodlp/banners/igp_Birthday_Cakes_d_frames_20220309.jpg"
@@ -75,6 +74,8 @@ function Celebrate() {
             <p className="fs-4 text-center">For Here</p>
           </div>
         </div>
+
+       
         
       </section>
     </div>

@@ -8,10 +8,13 @@ import cake3 from '../assets/image/cake2banner.webp'
 function Banner() {
   return (
     <div>
-      <section className="container">
-      
-      </section>
      <section className="container mt-4">
+     <h1 className="text-center mt-3">
+            <span className="text-danger display-4 fw-bold">G</span>ift{" "}
+            <span className="text-danger display-4 fw-bold">Z</span>one
+            <span className="text-danger display-4 fw-bold">S</span>hop
+
+            </h1>
       <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
