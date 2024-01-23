@@ -11,19 +11,10 @@ import Footer from './Footer'
 
 function Main() {
   return (
-    <div>
-        <Banner/>
-        <Unique/>
-        <Trending/>
-        <Celebrate/>
-        <Bestselling/>
-        <Categories/>
-        <Occasions/>
-        <Sending/>
-        <Footer/>
+    <div className='overflow-hidden'>
+      
 
-
-
+     <div><Banner/></div>
 
 
 

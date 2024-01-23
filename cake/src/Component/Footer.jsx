@@ -3,7 +3,7 @@ import footerimg from '../assets/image/world-map.png'
 
 export default function Footer() {
   return (
-    <footer className='bg-black' data-aos='zoom-in' data-aos-duration="800">
+    <footer className='bg-black' data-aos='fade-up' data-aos-duration="800">
             <div className='row py-3 my-3 text-light'>
                 <div className='col-md-4 d-flex justify-content-center align-items-center'>
                     <div className='text-center px-4'>

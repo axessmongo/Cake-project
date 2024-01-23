@@ -9,7 +9,7 @@ import fashion from '../assets/image/fashion.webp'
 
 export default function Unique() {
   return (
-  <section className='container'>
+  <section className='container' id='online'>
       <div className='text-center pt-5'>
       <h1 className="text-center mt-3">
             {" "}
