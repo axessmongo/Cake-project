@@ -443,7 +443,7 @@ function Banner() {
                 alt=""
               />
             </div>
-            <h3 className="mt-3">BABR SHOWER</h3>
+            <h3 className="mt-3">BABY SHOWER</h3>
           </div>
           <div className="col-lg-3 text-center shadow">
             <div className="mt-3">
