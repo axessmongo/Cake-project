@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import cake1 from '../assets/image/cake banner.webp'
 import cake2 from '../assets/image/cake1banner'
 import cake3 from '../assets/image/cake2banner.webp'
@@ -19,6 +20,7 @@ import taj from "../assets/image/india.jpg";
 import uk from "../assets/image/uk.avif";
 import canada from "../assets/image/canada.avif";
 import germany from "../assets/image/germany2.avif";
+
 
 
 
@@ -75,6 +77,9 @@ function Banner() {
         </div>
       </nav>
     </section>
+    <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
+        <Link to="https://axesstechnology.org/contact" className='buy-now-bt'>BuyNow</Link>
+      </div>
      <section className="herobanner" id='home'>
      <h1 className="text-center" data-aos="fade-down">
             <span className="text-danger display-4 fw-bold">G</span>ift{" "}
@@ -96,6 +101,7 @@ function Banner() {
         </div>
       </div>
     </section>
+
     <section className='container' id='online'>
       <div className='text-center pt-5'>
       <h1 className="text-center mt-3" data-aos="fade-down">
@@ -117,6 +123,7 @@ function Banner() {
         
       </div>
   </section>
+
   <section className="container" >
         <div className="pt-5 text-center">
           <h1 className="text-center mt-3" data-aos="fade-down">
@@ -190,6 +197,7 @@ function Banner() {
           </div>
         </div>
       </section>
+      
       <section className="container" id='celebrate'>
         <h1 className="text-center mt-3" data-aos="fade-down"> <span className="text-danger display-4 fw-bold">C</span>elebrate <span className="text-danger display-4 fw-bold">M</span>ilestones</h1>
         <p className="text-center">With our memorable gifts</p>
@@ -201,7 +209,7 @@ function Banner() {
               className="img-fluid rounded-4 zoom-image"
               alt=""
             />
-            <p className="fs-4 text-center ">For Her</p>
+            <p className="fs-4 text-center ">Gift</p>
           </div>
           <div className="col-md-3 mt-3">
             <img
@@ -225,7 +233,7 @@ function Banner() {
               className="img-fluid rounded-4 zoom-image"
               alt=""
             />
-            <p className="fs-4 text-center">WIFE</p>
+            <p className="fs-4 text-center">Gift</p>
           </div>
         
           <div className="col-md-3 mt-3">
@@ -250,7 +258,7 @@ function Banner() {
               className="img-fluid rounded-4 zoom-image"
               alt=""
             />
-            <p className="fs-4 text-center">HUSBAND</p>
+            <p className="fs-4 text-center">Gift</p>
           </div>
           <div className="col-md-3 mt-3">
             <img
@@ -443,7 +451,7 @@ function Banner() {
                 alt=""
               />
             </div>
-            <h3 className="mt-3">BABR SHOWER</h3>
+            <h3 className="mt-3">BABY SHOWER</h3>
           </div>
           <div className="col-lg-3 text-center shadow">
             <div className="mt-3">
@@ -453,7 +461,7 @@ function Banner() {
                 alt=""
               />
             </div>
-            <h3 className="mt-3">HOUSE WARMING</h3>
+            <h3 className="mt-3">DIFFERENT GIFT</h3>
 
           </div>
           <div className="col-lg-3 text-center shadow">
