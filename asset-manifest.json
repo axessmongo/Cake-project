@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Cake-project/static/css/main.59f72a51.css",
+    "main.js": "/Cake-project/static/js/main.2bb5b616.js",
+    "static/js/787.5d6d40bb.chunk.js": "/Cake-project/static/js/787.5d6d40bb.chunk.js",
+    "static/media/india.jpg": "/Cake-project/static/media/india.1a3e3b38b75f8f650a83.jpg",
+    "static/media/cake banner.webp": "/Cake-project/static/media/cake banner.da593f2a68be7a6163f5.webp",
+    "static/media/cake2banner.webp": "/Cake-project/static/media/cake2banner.1b0c26389950be4c6ce9.webp",
+    "static/media/world-map.png": "/Cake-project/static/media/world-map.e838c87bfb8d88c79290.png",
+    "static/media/germany2.avif": "/Cake-project/static/media/germany2.929e92676061b4eb2a43.avif",
+    "static/media/cake1banner": "/Cake-project/static/media/cake1banner.aacab075f14620f448dc",
+    "static/media/uk.avif": "/Cake-project/static/media/uk.d01ef03453239fd77153.avif",
+    "static/media/canada.avif": "/Cake-project/static/media/canada.b0eb803653c6ffc77a03.avif",
+    "static/media/flower.web.jpg": "/Cake-project/static/media/flower.web.38d26816cf3daf6bb8ce.jpg",
+    "static/media/hampers.webp": "/Cake-project/static/media/hampers.d922e37b933e5152800e.webp",
+    "static/media/cake.webp": "/Cake-project/static/media/cake.dae9a855154c851c773a.webp",
+    "static/media/couple.web.webp": "/Cake-project/static/media/couple.web.a0bdafe70790cd5a751b.webp",
+    "static/media/personalized.webp": "/Cake-project/static/media/personalized.354f7ba7fcfa9bb4e0b0.webp",
+    "static/media/plants.web.webp": "/Cake-project/static/media/plants.web.b7137af47aec7c6d3b68.webp",
+    "static/media/birthday.webp": "/Cake-project/static/media/birthday.83027698f0ba9e8e90b4.webp",
+    "static/media/wedding.webp": "/Cake-project/static/media/wedding.3edbdeeaf6498f6fa270.webp",
+    "static/media/gourment.webp": "/Cake-project/static/media/gourment.a86a85ff930acb4e3cb1.webp",
+    "static/media/festival.webp": "/Cake-project/static/media/festival.738e5ab22b3f37ef4b8a.webp",
+    "static/media/fashion.webp": "/Cake-project/static/media/fashion.383942c11383c08637ee.webp",
+    "index.html": "/Cake-project/index.html",
+    "main.59f72a51.css.map": "/Cake-project/static/css/main.59f72a51.css.map",
+    "main.2bb5b616.js.map": "/Cake-project/static/js/main.2bb5b616.js.map",
+    "787.5d6d40bb.chunk.js.map": "/Cake-project/static/js/787.5d6d40bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59f72a51.css",
+    "static/js/main.2bb5b616.js"
+  ]
+}
