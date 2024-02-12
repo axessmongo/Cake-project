@@ -78,7 +78,7 @@ function Banner() {
       </nav>
     </section>
     <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
-        <Link to="https://axesstechnology.org/contact" className='buy-now-bt'>BuyNow</Link>
+        <Link to="https://axesstechnology.in/contact" target="_blank" className='buy-now-bt'>BuyNow</Link>
       </div>
      <section className="herobanner" id='home'>
      <h1 className="text-center" data-aos="fade-down">
@@ -107,7 +107,7 @@ function Banner() {
       <h1 className="text-center mt-3" data-aos="fade-down">
             {" "}
             <span className="text-danger display-4 fw-bold">U</span>nique{" "}
-            <span className="text-danger display-4 fw-bold">G</span>ifts
+            <span className="text-danger display-4 fw-bold">G</span>ifts {" "}
             <span className="text-danger display-4 fw-bold">O</span>nline
 
           </h1>
@@ -116,7 +116,7 @@ function Banner() {
       <div className='row pt-4'data-aos='fade-left' data-aos-duration="1500">
         <div className='col-md-2 text-center px-1'><img src={birthday} alt="" />Birthday Gifts</div>
         <div className='col-md-2 text-center  px-1'><img src={anniversary} alt="" />Anniversary Gifts</div>
-        <div className='col-md-2 text-center  px-1'><img src={festival} alt="" />Corporate Gift</div>
+        <div className='col-md-2 text-center  px-1'><img src={festival} alt="" />Corporate Gifts</div>
         <div className='col-md-2 text-center  px-1'><img src={wedding} alt="" />Wedding Gifts</div>
         <div className='col-md-2 text-center  px-1'><img src={gourment} alt="" />Gourmet Gifts</div>
         <div className='col-md-2 text-center  px-1'><img src={fashion} alt="" />Fashion and Lifestyle</div>
@@ -296,7 +296,7 @@ function Banner() {
                     <h4>Personalized</h4>
                   </span>
                   <p>Home & Living</p>
-                  <p>Collectibles</p>
+                  <p>Collectables</p>
                   <p>Cushions</p>
                   <p>Caricatures</p>
                 </div>
@@ -540,7 +540,7 @@ function Banner() {
                     <div>
                         <h4 className='text-danger'>New Products</h4>
                         <p>Cheese Cake</p>
-                        <p>MIcebox Cake</p>
+                        <p>Icebox Cake</p>
                         <p>Butter Cake</p>
                         <p>Pound Cake</p>
                     </div>
@@ -554,7 +554,7 @@ function Banner() {
                     </div>
                 </div>
             </div>
-            <h5 className='text-center pb-2 text-danger'>Right GitfZone © 2021. All Rights Reserved</h5>
+            <h5 className='text-center pb-2 text-danger'>Right Gitf Zone © 2021. All Rights Reserved</h5>
             </footer>
     </div>
   );
