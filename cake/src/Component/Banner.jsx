@@ -28,103 +28,103 @@ import germany from "../assets/image/germany2.avif";
 function Banner() {
   return (
     <div>
-       <section className="nav-banner">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="home">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Shop Logo
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto mb-3 heading5 p-2 mb-lg-0 text-center">
-              <li className="nav-item">
-                <a className="nav-link active px-3" href="#home">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active px-3" href="#online">
-                  Online Gift
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active px-3" href="#celebrate">
-                  Celebrate
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active px-3" href="#categories">
-                  Categories 
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active px-3" href="#occasion">
-                  Occasions
-                </a>
-              </li>
-            </ul>
+      <section className="nav-banner">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="home">
+          <div className="container-fluid">
+            <a className="navbar-brand" href="#">
+              Shop Logo
+            </a>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul className="navbar-nav ms-auto mb-3 heading5 p-2 mb-lg-0 text-center">
+                <li className="nav-item">
+                  <a className="nav-link active px-3" href="#home">
+                    Home
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link active px-3" href="#online">
+                    Online Gift
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link active px-3" href="#celebrate">
+                    Celebrate
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link active px-3" href="#categories">
+                    Categories
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link active px-3" href="#occasion">
+                    Occasions
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-    </section>
-    <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
+        </nav>
+      </section>
+      <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
         <Link to="https://axesstechnology.in/contact" target="_blank" className='buy-now-bt'>BuyNow</Link>
       </div>
-     <section className="herobanner" id='home'>
-     <h1 className="text-center" data-aos="fade-down">
-            <span className="text-danger display-4 fw-bold">G</span>ift{" "}
-            <span className="text-danger display-4 fw-bold">Z</span>one
-            <span className="text-danger display-4 fw-bold">S</span>hop
+      <section className="herobanner" id='home'>
+        <h1 className="text-center" data-aos="fade-down">
+          <span className="text-danger display-4 fw-bold">G</span>ift{" "}
+          <span className="text-danger display-4 fw-bold">Z</span>one
+          <span className="text-danger display-4 fw-bold">S</span>hop
 
-            </h1>
-      <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src={cake1} className="d-block w-100" alt="Slide 1" />
-          </div>
-          <div className="carousel-item">
-            <img src={cake2} className="d-block w-100" alt="Slide 2" />
-          </div>
-          <div className="carousel-item">
-            <img src={cake3} className="d-block w-100" alt="Slide 3" />
+        </h1>
+        <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img src={cake1} className="d-block w-100" alt="Slide 1" />
+            </div>
+            <div className="carousel-item">
+              <img src={cake2} className="d-block w-100" alt="Slide 2" />
+            </div>
+            <div className="carousel-item">
+              <img src={cake3} className="d-block w-100" alt="Slide 3" />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section className='container' id='online'>
-      <div className='text-center pt-5'>
-      <h1 className="text-center mt-3" data-aos="fade-down">
+      <section className='container' id='online'>
+        <div className='text-center pt-5'>
+          <h1 className="text-center mt-3" data-aos="fade-down">
             {" "}
             <span className="text-danger display-4 fw-bold">U</span>nique{" "}
             <span className="text-danger display-4 fw-bold">G</span>ifts {" "}
             <span className="text-danger display-4 fw-bold">O</span>nline
 
           </h1>
-        <p style={{color:'grey'}}>Curated to make every special moment a celebration</p>
-      </div>
-      <div className='row pt-4'data-aos='fade-left' data-aos-duration="1500">
-        <div className='col-md-2 text-center px-1'><img src={birthday} alt="" />Birthday Gifts</div>
-        <div className='col-md-2 text-center  px-1'><img src={anniversary} alt="" />Anniversary Gifts</div>
-        <div className='col-md-2 text-center  px-1'><img src={festival} alt="" />Corporate Gifts</div>
-        <div className='col-md-2 text-center  px-1'><img src={wedding} alt="" />Wedding Gifts</div>
-        <div className='col-md-2 text-center  px-1'><img src={gourment} alt="" />Gourmet Gifts</div>
-        <div className='col-md-2 text-center  px-1'><img src={fashion} alt="" />Fashion and Lifestyle</div>
-        
-      </div>
-  </section>
+          <p style={{ color: 'grey' }}>Curated to make every special moment a celebration</p>
+        </div>
+        <div className='row pt-4' data-aos='fade-left' data-aos-duration="1500">
+          <div className='col-md-2 text-center px-1'><img src={birthday} alt="" />Birthday Gifts</div>
+          <div className='col-md-2 text-center  px-1'><img src={anniversary} alt="" />Anniversary Gifts</div>
+          <div className='col-md-2 text-center  px-1'><img src={festival} alt="" />Corporate Gifts</div>
+          <div className='col-md-2 text-center  px-1'><img src={wedding} alt="" />Wedding Gifts</div>
+          <div className='col-md-2 text-center  px-1'><img src={gourment} alt="" />Gourmet Gifts</div>
+          <div className='col-md-2 text-center  px-1'><img src={fashion} alt="" />Fashion and Lifestyle</div>
 
-  <section className="container" >
+        </div>
+      </section>
+
+      <section className="container" >
         <div className="pt-5 text-center">
           <h1 className="text-center mt-3" data-aos="fade-down">
             {" "}
@@ -197,12 +197,12 @@ function Banner() {
           </div>
         </div>
       </section>
-      
+
       <section className="container" id='celebrate'>
         <h1 className="text-center mt-3" data-aos="fade-down"> <span className="text-danger display-4 fw-bold">C</span>elebrate <span className="text-danger display-4 fw-bold">M</span>ilestones</h1>
         <p className="text-center">With our memorable gifts</p>
         <p className="display-6 text-center" data-aos="fade-down"><span className="text-danger display-4 fw-bold">B</span>IRTHDAY & <span className="text-danger display-4 fw-bold">A</span>NNIVERSARY <span className="text-danger display-4 fw-bold">G</span>IFTS</p>
-        <div className="row"  data-aos="fade-right" data-aos-duration="1500">
+        <div className="row" data-aos="fade-right" data-aos-duration="1500">
           <div className="col-md-3 mt-3 ">
             <img
               src="https://cdn.igp.com/f_auto,q_auto,t_pnopt7prodlp/banners/igp_Birthday_For_Her_d_frames_20220309.jpg"
@@ -235,7 +235,7 @@ function Banner() {
             />
             <p className="fs-4 text-center">Gift</p>
           </div>
-        
+
           <div className="col-md-3 mt-3">
             <img
               src="  https://cdn.igp.com/f_auto,q_auto,t_pnopt7prodlp/banners/igp_Birthday_Cakes_d_frames_20220309.jpg"
@@ -270,11 +270,11 @@ function Banner() {
           </div>
         </div>
 
-       
-        
+
+
       </section>
-     
-            <section className="container" id="categories">
+
+      <section className="container" id="categories">
         <h1 className="text-center mt-3" data-aos="fade-down" >
           <span className="text-danger display-4 fw-bold"  >C</span>ategories
         </h1>
@@ -327,7 +327,7 @@ function Banner() {
             </div>
           </div>
         </div>
-        <div className="row"  data-aos="fade-up-left" data-aos-duration="1500">
+        <div className="row" data-aos="fade-up-left" data-aos-duration="1500">
           <div className="col-md-4  zoom-image">
             <div className=" mt-3">
               <div className="row">
@@ -439,7 +439,7 @@ function Banner() {
               />
             </div>
             <h3 className="mt-3">ANNIVERSITY</h3>
-            
+
           </div>
         </div>
         <div className="row justify-content-around mt-4" data-aos="zoom-in-up" data-aos-duration="1500">
@@ -473,7 +473,7 @@ function Banner() {
               />
             </div>
             <h3 className="mt-3">BEST WISHES</h3>
-            
+
           </div>
         </div>
       </section>
@@ -519,43 +519,43 @@ function Banner() {
         </div>
       </section>
       <footer className='bg-black' data-aos='fade-up' data-aos-duration="800">
-            <div className='row py-3 my-3 text-light'>
-                <div className='col-md-4 d-flex justify-content-center align-items-center'>
-                    <div className='text-center px-4'>
-                        <h2 className='text-danger'>Gift Zone</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur fugit, 
-                            iure quos quas, accusantium quia quasi eveniet</p>
-                    </div>
-                </div>
-                <div className='col-md-2'>
-                    <div>
-                        <h4 className='text-danger'>Quick Links</h4>
-                        <p>About</p>
-                        <p>Offers & Discounts</p>
-                        <p>Get Coupon</p>
-                        <p>Contact Us</p>
-                    </div>
-                </div>
-                <div className='col-md-2'>
-                    <div>
-                        <h4 className='text-danger'>New Products</h4>
-                        <p>Cheese Cake</p>
-                        <p>Icebox Cake</p>
-                        <p>Butter Cake</p>
-                        <p>Pound Cake</p>
-                    </div>
-                </div>
-                <div className='col-md-4 d-flex justify-content-center align-items-center'>
-                    <div className='text-center'>
-                    <h4 className='text-danger'>World Wild Link</h4>
-                    <div className=' pt-4'>
-                        <img src={footerimg} alt="" className='img-fluid w-75' />
-                    </div>
-                    </div>
-                </div>
+        <div className='row py-3 my-3 text-light'>
+          <div className='col-md-4 d-flex justify-content-center align-items-center'>
+            <div className='text-center px-4'>
+              <h2 className='text-danger'>Gift Zone</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur fugit,
+                iure quos quas, accusantium quia quasi eveniet</p>
             </div>
-            <h5 className='text-center pb-2 text-danger'>Right Gitf Zone © 2021. All Rights Reserved</h5>
-            </footer>
+          </div>
+          <div className='col-md-2'>
+            <div>
+              <h4 className='text-danger'>Quick Links</h4>
+              <p>About</p>
+              <p>Offers & Discounts</p>
+              <p>Get Coupon</p>
+              <p>Contact Us</p>
+            </div>
+          </div>
+          <div className='col-md-2'>
+            <div>
+              <h4 className='text-danger'>New Products</h4>
+              <p>Cheese Cake</p>
+              <p>Icebox Cake</p>
+              <p>Butter Cake</p>
+              <p>Pound Cake</p>
+            </div>
+          </div>
+          <div className='col-md-4 d-flex justify-content-center align-items-center'>
+            <div className='text-center'>
+              <h4 className='text-danger'>World Wild Link</h4>
+              <div className=' pt-4'>
+                <img src={footerimg} alt="" className='img-fluid w-75' />
+              </div>
+            </div>
+          </div>
+        </div>
+        <h5 className='text-center pb-2 text-danger'>Right Gitf Zone © 2021. All Rights Reserved</h5>
+      </footer>
     </div>
   );
 }

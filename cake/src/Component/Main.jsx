@@ -5,14 +5,7 @@ import Banner from './Banner'
 function Main() {
   return (
     <div className='overflow-hidden'>
-      
-
-     <div><Banner/></div>
-
-
-
-
-
+      <div><Banner /></div>
     </div>
   )
 }
